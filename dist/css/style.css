@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("Source Sans Pro"),
+    url("fonts/SourceSans3-Regular.ttf.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("fonts/SourceSans3-Regular.ttf.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.3px;
+  background: black;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+h4 a {
+  text-decoration: none;
+}
+
+h4 a:hover {
+  text-decoration: underline;
+}
+
+code {
+  padding: 0px;
+  border: 0px solid red;
+  font-size: 15px;
+  margin: 0px;
+}
+
+pre {
+  padding: 0px;
+  border: 0px solid yellowgreen;
+}
+
+@media only screen and (max-width: 860px) {
+  #content {
+    width: 99%;
+    margin: 5px auto;
+    padding: 2px 7px;
+    background: white;
+  }
+}
+
+@media only screen and (min-width: 861px) {
+  #content {
+    width: 800px;
+    margin: 5px auto;
+    padding: 5px 10px;
+    background: white;
+  }
+}
+
+a {
+  color: black;
+}
+
+.tutorial {
+  border: 0px solid black;
+  padding: 5px 10px;
+  margin: 0px 20px 20px 20px;
+  height: 160px;
+  width: 740px;
+}
+
+.tutorial img {
+  width: 150px;
+  float: left;
+  margin-top: 5px;
+  border: 0px solid red;
+}
+
+.tutorial h2 {
+  float: left;
+  margin: 5px 20px;
+  font-size: 22px;
+  border: 0px solid royalblue;
+}
+
+.tutorial p {
+  float: left;
+  border: 0px solid lime;
+  width: 540px;
+  margin: 0px 20px;
+  font-size: 18px;
+}
+
+.tutorial:hover {
+  transform: scale(1.04);
+  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
+.chapter {
+  border: 0px solid black;
+  padding: 5px 10px;
+  margin: 0px -5px 0px -10px;
+  height: 120px;
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.chapter img {
+  width: 100px;
+  float: left;
+  margin-top: 5px;
+  border: 0px solid red;
+}
+
+.chapter h2 {
+  float: left;
+  margin: 15px 20px;
+  font-size: 50px;
+  border: 0px solid royalblue;
+}
+
+hr {
+  background-color: #e6e8eb;
+  height: 1px;
+  border: 0;
+}
+
+p a {
+  color: #39b982;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+p code {
+  border: 1px solid #e6e8eb;
+  padding: 0 4px 2px;
+  background: #f7f9fa;
+}
+
+p img {
+  max-width: 100%;
+}
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
